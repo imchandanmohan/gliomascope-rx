@@ -98,7 +98,7 @@ Chandan Mohan – M.S. Computer Science, GWU
 🌐 Portfolio | LinkedIn | GitHub
 
 ⸻
-
+```
 
 <p align="center">
   <i>GliomaScope RX – AI Radiology Assistant for Brain Tumor Analysis</i><br/>
