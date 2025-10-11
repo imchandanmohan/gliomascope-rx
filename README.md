@@ -4,7 +4,7 @@ Here’s your complete, recruiter-ready README.md — copy-paste it directly int
 
 
 <p align="center">
-  <img src="data/sample_brain_mri.png" alt="GliomaScope RX Banner" width="800"/>
+  <img src="data/image.png" alt="GliomaScope RX Banner" width="800"/>
 </p>
 
 # 🧠 GliomaScope RX – AI Radiology Assistant  
@@ -99,7 +99,7 @@ It is not a medical device, and outputs must not be used for clinical decisions.
 
 👩‍💻 Author
 
-Alison Sanchez – M.S. Bioinformatics & Molecular Biochemistry, GWU
+Chandan Mohan – M.S. Computer Science, GWU
 🌐 Portfolio | LinkedIn | GitHub
 
 ⸻
@@ -109,4 +109,4 @@ Alison Sanchez – M.S. Bioinformatics & Molecular Biochemistry, GWU
   <i>GliomaScope RX – AI Radiology Assistant for Brain Tumor Analysis</i><br/>
   <sub>FastAPI • React • Docker • Cloud Run • Gemini 1.5 Pro • MLOps Pipeline</sub>
 </p>
-```
+
