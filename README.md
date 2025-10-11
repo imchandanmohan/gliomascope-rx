@@ -1,6 +1,10 @@
 <p align="center">
   <img src="data/image.png" alt="GliomaScope RX Banner" width="800"/>
 </p>
+<p align="center">
+  <i><b>GliomaScope RX</b> – AI Radiology Assistant for Brain Tumor Analysis</i><br/>
+  <sub>FastAPI • React • Docker • Cloud Run • Gemini 1.5 Pro • MLOps Pipeline</sub>
+</p>
 
 # 🧠 GliomaScope RX – AI Radiology Assistant  
 
