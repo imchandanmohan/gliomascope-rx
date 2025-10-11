@@ -1,8 +1,3 @@
-Here’s your complete, recruiter-ready README.md — copy-paste it directly into your GitHub repo (gliomascope-rx/README.md) 👇
-
-⸻
-
-
 <p align="center">
   <img src="data/image.png" alt="GliomaScope RX Banner" width="800"/>
 </p>
