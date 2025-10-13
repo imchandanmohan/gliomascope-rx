@@ -1,0 +1,16 @@
+Technique,Primary Purpose,Mathematical Formula,Key Parameters,Typical Use Case
+Gaussian Filter (Noise Reduction),"Noise reduction, smoothing","G(x,y) = I(x,y) * G_σ(x,y), where G_σ is Gaussian kernel",σ (sigma): controls blur amount,"Pre-processing, general denoising"
+Median Filter (Noise Reduction),Salt & pepper noise removal,"I_filtered(i,j) = median{I(i+k, j+l) | (k,l) ∈ W}",Window size: neighborhood size,Impulse noise removal
+Bilateral Filter,Edge-preserving smoothing,BF[I]_p = (1/W_p) Σ G_σs(||p-q||) G_σr(|I_p - I_q|) I_q,"σ_s (spatial), σ_r (range): control smoothing","Medical imaging, photography"
+Wiener Filter,"Deblurring, denoising","F̂(u,v) = [H*(u,v) / (|H(u,v)|² + K)] G(u,v)",K: noise-to-signal ratio,"Motion blur, defocus correction"
+Total Variation Denoising (ROF),Edge-preserving denoising,min_u {∫|∇u|dx + λ/2 ∫|u-f|²dx},λ: regularization parameter,Edge-preserving restoration
+Non-Local Means Denoising,Texture-preserving denoising,u(p) = (1/C(p)) ∫ v(q) exp(-||N(p)-N(q)||²/h²) dq,"h: filtering parameter, patch size",Texture preservation
+Unsharp Masking,Image sharpening,I_sharp = I + α(I - I_blur),α: sharpening amount,"Photo sharpening, print preparation"
+Laplacian Sharpening,Edge enhancement,∇²I = ∂²I/∂x² + ∂²I/∂y²,Kernel coefficients,"Edge detection, sharpening"
+SRCNN (Super Resolution),Resolution upscaling (AI),Y = F₃(F₂(F₁(X))) where F_i are conv layers,"Network architecture, learning rate",Image upscaling with deep learning
+SRGAN (Super Resolution),High-quality super resolution (GAN),G_loss = MSE_loss + λ_VGG × VGG_loss + λ_adv × Adv_loss,"Loss weights: λ_VGG, λ_adv",Photo-realistic super-resolution
+Bicubic Interpolation,Interpolation upscaling,"I(x,y) = Σ Σ I(i,j) × B_x(x-i) × B_y(y-j)",Interpolation order,Basic image resizing
+Lanczos Resampling,High-quality resampling,"I(x) = Σ I(k) × L((x-k)/a), L is Lanczos kernel","a: scaling factor, kernel size",High-quality image scaling
+Histogram Equalization,Contrast enhancement,"I_eq(i,j) = (L-1) × CDF(I(i,j))",Number of bins,Low contrast image enhancement
+CLAHE (Contrast Enhancement),Local contrast enhancement,"I_clahe(x,y) = T_local(I(x,y))","Clip limit, tile size",Local contrast improvement
+Gamma Correction,Brightness correction,I_corrected = I^(1/γ),γ: gamma value,"Display calibration, brightness"

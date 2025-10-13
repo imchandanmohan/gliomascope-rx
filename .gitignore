@@ -54,3 +54,8 @@ coverage/
 # Custom ignores
 upload.sh
 Makefile
+dataset/
+
+mlops/mlflow/artifacts/checkpoints/
+mlops/mlflow/artifacts/logs/
+mlops/mlflow/models/
