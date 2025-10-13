@@ -15,30 +15,24 @@ export default function Gallery({ images }: GalleryProps) {
     );
 
     return (
-      <div className="w-full border-t border-slate-800 pt-3 pb-3">
-        {/* Center the gallery track and limit its width */}
-        <div className="mx-auto max-w-[950px]">
-          {/* Scroll only if needed; otherwise keep row centered */}
+      <div className="w-full border-t border-slate-800 pt-2 pb-2">
+        <div className="mx-auto max-w-[900px]">
           <div className="overflow-x-auto">
-            {/* This wrapper keeps the row centered when content is narrower than container */}
-            <div className="min-w-full flex justify-center">
-              {/* Thumbnails row; height a bit larger */}
-              <div className="inline-flex items-center gap-4 px-2 h-[132px]">
-                {images.map((img, i) => (
-                  <img
-                    key={i}
-                    src={img}
-                    alt={`gallery-${i}`}
-                    onClick={() => setSelected(img)}
-                    className="w-28 h-28 object-cover rounded-lg cursor-pointer snap-start transform hover:scale-110 transition-transform duration-300 shadow-md"
-                  />
-                ))}
-              </div>
+            {/* Slimmer row; centered when not overflowing */}
+            <div className="mx-auto w-fit flex items-center gap-3 px-2 h-[300px]">
+              {images.map((img, i) => (
+                <img
+                  key={i}
+                  src={img}
+                  alt={`gallery-${i}`}
+                  onClick={() => setSelected(img)}
+                  className="w-46 h-46 object-cover rounded-lg cursor-pointer snap-start transform hover:scale-110 transition-transform duration-300 shadow-md"
+                />
+              ))}
             </div>
           </div>
         </div>
     
-        {/* Popup Enlarged View */}
         {selected && (
           <div
             className="fixed inset-0 bg-black/80 flex items-center justify-center z-[1000]"
