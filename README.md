@@ -98,7 +98,7 @@ It is not a medical device, and outputs must not be used for clinical decisions.
 
 👩‍💻 Author
 
-Chandan Mohan – M.S. Computer Science, George Washington University | @chandan.naidu97@gmail.com
+Chandan Mohan – M.S. Computer Science, George Washington University | chandan.naidu97@gmail.com
 🌐 Portfolio | LinkedIn | GitHub
 
 ⸻
