@@ -15,7 +15,7 @@ GliomaScope RX is a one-page AI radiology web application where users can upload
 1. Detects and highlights tumor regions (U-Net segmentation overlay).  
 2. Predicts tumor size, aggressiveness score, and stage proxy.  
 3. Retrieves current research insights via a RAG pipeline (PubMed / clinical trials).  
-4. Generates a sample AI prescription report (PDF + email via SendGrid).  
+4. Generates a sample AI prescription report (PDF + email via SendGrid). 
 
 ---
 
@@ -98,7 +98,8 @@ It is not a medical device, and outputs must not be used for clinical decisions.
 
 👩‍💻 Author
 
-Chandan Mohan – M.S. Computer Science, George Washington University 
+Chandan Mohan – M.S. Computer Science, George Washington University.
+
 🌐 Portfolio | LinkedIn | GitHub
 
 ⸻
