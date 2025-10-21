@@ -56,7 +56,7 @@ data/       → sample MRI/CT images
 - Segmentation IoU / Dice Score  
 - Classification AUC / F1  
 - API Latency (P50 / P95 ms)  
-- Uptime % and Cost per Inference ($)
+- Uptime % and Cost per Inferences ($)
 
 ---
 
